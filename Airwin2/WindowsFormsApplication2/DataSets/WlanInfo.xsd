@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="WlanInfo" targetNamespace="http://tempuri.org/WlanIfo.xsd" xmlns:mstns="http://tempuri.org/WlanIfo.xsd" xmlns="http://tempuri.org/WlanIfo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="WlanInfo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="WlanInfo" msprop:Generator_UserDSName="WlanInfo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="WLANS" msprop:Generator_TableClassName="WLANSDataTable" msprop:Generator_TableVarName="tableWLANS" msprop:Generator_TablePropName="WLANS" msprop:Generator_RowDeletingName="WLANSRowDeleting" msprop:Generator_RowChangingName="WLANSRowChanging" msprop:Generator_RowEvHandlerName="WLANSRowChangeEventHandler" msprop:Generator_RowDeletedName="WLANSRowDeleted" msprop:Generator_UserTableName="WLANS" msprop:Generator_RowChangedName="WLANSRowChanged" msprop:Generator_RowEvArgName="WLANSRowChangeEvent" msprop:Generator_RowClassName="WLANSRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ESSID" msprop:Generator_ColumnVarNameInTable="columnESSID" msprop:Generator_ColumnPropNameInRow="ESSID" msprop:Generator_ColumnPropNameInTable="ESSIDColumn" msprop:Generator_UserColumnName="ESSID" type="xs:string" />
+              <xs:element name="BSSID" msprop:Generator_ColumnVarNameInTable="columnBSSID" msprop:Generator_ColumnPropNameInRow="BSSID" msprop:Generator_ColumnPropNameInTable="BSSIDColumn" msprop:Generator_UserColumnName="BSSID" type="xs:string" />
+              <xs:element name="Auth" msprop:Generator_ColumnVarNameInTable="columnAuth" msprop:Generator_ColumnPropNameInRow="Auth" msprop:Generator_ColumnPropNameInTable="AuthColumn" msprop:Generator_UserColumnName="Auth" type="xs:string" minOccurs="0" />
+              <xs:element name="Cipher" msprop:Generator_ColumnVarNameInTable="columnCipher" msprop:Generator_ColumnPropNameInRow="Cipher" msprop:Generator_ColumnPropNameInTable="CipherColumn" msprop:Generator_UserColumnName="Cipher" type="xs:string" minOccurs="0" />
+              <xs:element name="PowerDbm" msprop:Generator_ColumnVarNameInTable="columnPowerDbm" msprop:Generator_ColumnPropNameInRow="PowerDbm" msprop:Generator_ColumnPropNameInTable="PowerDbmColumn" msprop:Generator_UserColumnName="PowerDbm" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="WARDRIVING" msprop:Generator_TableClassName="WARDRIVINGDataTable" msprop:Generator_TableVarName="tableWARDRIVING" msprop:Generator_RowChangedName="WARDRIVINGRowChanged" msprop:Generator_TablePropName="WARDRIVING" msprop:Generator_RowDeletingName="WARDRIVINGRowDeleting" msprop:Generator_RowChangingName="WARDRIVINGRowChanging" msprop:Generator_RowEvHandlerName="WARDRIVINGRowChangeEventHandler" msprop:Generator_RowDeletedName="WARDRIVINGRowDeleted" msprop:Generator_RowClassName="WARDRIVINGRow" msprop:Generator_UserTableName="WARDRIVING" msprop:Generator_RowEvArgName="WARDRIVINGRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BSSID" msprop:Generator_ColumnVarNameInTable="columnBSSID" msprop:Generator_ColumnPropNameInRow="BSSID" msprop:Generator_ColumnPropNameInTable="BSSIDColumn" msprop:Generator_UserColumnName="BSSID" type="xs:string" minOccurs="0" />
+              <xs:element name="PowerDbm" msprop:Generator_ColumnVarNameInTable="columnPowerDbm" msprop:Generator_ColumnPropNameInRow="PowerDbm" msprop:Generator_ColumnPropNameInTable="PowerDbmColumn" msprop:Generator_UserColumnName="PowerDbm" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TimeStamp" msprop:Generator_ColumnVarNameInTable="columnTimeStamp" msprop:Generator_ColumnPropNameInRow="TimeStamp" msprop:Generator_ColumnPropNameInTable="TimeStampColumn" msprop:Generator_UserColumnName="TimeStamp" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" minOccurs="0" />
+              <xs:element name="Latitud" msprop:Generator_ColumnVarNameInTable="columnLatitud" msprop:Generator_ColumnPropNameInRow="Latitud" msprop:Generator_ColumnPropNameInTable="LatitudColumn" msprop:Generator_UserColumnName="Latitud" type="xs:double" minOccurs="0" />
+              <xs:element name="Longitud" msprop:Generator_ColumnVarNameInTable="columnLongitud" msprop:Generator_ColumnPropNameInRow="Longitud" msprop:Generator_ColumnPropNameInTable="LongitudColumn" msprop:Generator_UserColumnName="Longitud" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="WLANSKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:WLANS" />
+      <xs:field xpath="mstns:ESSID" />
+      <xs:field xpath="mstns:BSSID" />
+    </xs:unique>
+    <xs:unique name="WARDRIVINGKey1">
+      <xs:selector xpath=".//mstns:WARDRIVING" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="WLANS_WARDRIVING" msdata:parent="WLANS" msdata:child="WARDRIVING" msdata:parentkey="BSSID" msdata:childkey="BSSID" msprop:Generator_UserChildTable="WARDRIVING" msprop:Generator_ChildPropName="GetWARDRIVINGRows" msprop:Generator_UserRelationName="WLANS_WARDRIVING" msprop:Generator_RelationVarName="relationWLANS_WARDRIVING" msprop:Generator_UserParentTable="WLANS" msprop:Generator_ParentPropName="WLANSRow" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>
