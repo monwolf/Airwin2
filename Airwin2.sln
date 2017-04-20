@@ -1,26 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirWin2", "WindowsFormsApplication2\AirWin2.csproj", "{426F719C-CDE2-4FDD-8DF3-0A61BDD6AFCA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirWin2", "AirWin2\AirWin2.csproj", "{426F719C-CDE2-4FDD-8DF3-0A61BDD6AFCA}"
 	ProjectSection(ProjectDependencies) = postProject
 		{6AA425C9-EA6A-4B01-AAED-5FF122E8B663} = {6AA425C9-EA6A-4B01-AAED-5FF122E8B663}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagedWifi", "..\managed tracvker\ManagedWifi.csproj", "{6AA425C9-EA6A-4B01-AAED-5FF122E8B663}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagedWifi", "ManagedWifi\ManagedWifi.csproj", "{6AA425C9-EA6A-4B01-AAED-5FF122E8B663}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://bdl.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = WindowsFormsApplication2\\AirWin2.csproj
-		SccProjectName1 = WindowsFormsApplication2
-		SccLocalPath1 = WindowsFormsApplication2
-		SccProjectUniqueName2 = ..\\managed\u0020tracvker\\ManagedWifi.csproj
-		SccProjectName2 = ../managed\u0020tracvker
-		SccLocalPath2 = ..\\managed\u0020tracvker
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU

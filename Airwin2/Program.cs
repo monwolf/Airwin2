@@ -18,7 +18,7 @@ namespace AirWin
             Application.SetCompatibleTextRenderingDefault(false);
             
             if( OS_info.Version.Major>=6)
-            Application.Run(new Form1()); // Windows Vista o Superior
+            Application.Run(new MainForm()); // Windows Vista o Superior
             else 
             Application.Run(new AirWin.AdvertenciaWinXP()); // Inferior a vista
 

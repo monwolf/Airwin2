@@ -175,15 +175,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="antena_black&amp;red_60x60.ico" />
-    <Content Include="Resources\Sin título.png" />
-    <EmbeddedResource Include="Bitmap1.bmp" />
+    <Content Include="Resources\Donate.png" />
     <EmbeddedResource Include="AdvertenciaWinXP.resx">
       <DependentUpon>AdvertenciaWinXP.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\managed tracvker\ManagedWifi.csproj">
+    <ProjectReference Include="..\ManagedWifi\ManagedWifi.csproj">
       <Project>{6AA425C9-EA6A-4B01-AAED-5FF122E8B663}</Project>
       <Name>ManagedWifi</Name>
     </ProjectReference>

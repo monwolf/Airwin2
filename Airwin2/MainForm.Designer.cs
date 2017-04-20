@@ -1,6 +1,6 @@
 ﻿namespace AirWin
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.btnScan = new System.Windows.Forms.Button();
             this.btnStart = new System.Windows.Forms.Button();
             this.lblDiccionario = new System.Windows.Forms.Label();
@@ -179,9 +179,9 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.ErrorImage = global::AirWin.Properties.Resources.Sin_título;
-            this.pictureBox1.Image = global::AirWin.Properties.Resources.Sin_título;
-            this.pictureBox1.InitialImage = global::AirWin.Properties.Resources.Sin_título;
+            this.pictureBox1.ErrorImage = global::AirWin.Properties.Resources.Donate;
+            this.pictureBox1.Image = global::AirWin.Properties.Resources.Donate;
+            this.pictureBox1.InitialImage = global::AirWin.Properties.Resources.Donate;
             this.pictureBox1.Location = new System.Drawing.Point(343, 348);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(81, 27);
